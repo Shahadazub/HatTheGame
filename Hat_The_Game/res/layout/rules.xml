@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+        
+        >
+    
+
+        <TextView
+            android:id="@+id/TextRules"
+            style="@style/RulesTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="7dp"
+            android:text="@string/Rules_words_prepare" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="13dp"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/ButBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginRight="14dp"
+                android:layout_weight="0.33"
+                android:minHeight="35dip"
+                android:text="Назад" />
+
+            <Button
+                android:id="@+id/ButMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="14dp"
+                android:layout_weight="0.33"
+                android:minHeight="35dip"
+                android:text="В меню" />
+            
+            <Button
+                android:id="@+id/ButForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="14dp"
+                android:layout_weight="0.33"
+                android:minHeight="35dip"
+                android:text="Вперед" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+    
+
+
+
+    
+</ScrollView>

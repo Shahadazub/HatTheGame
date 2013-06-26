@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shahadazub.hat_the_game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.hat" >
+        <activity
+            android:name=".ActivityMainMenu"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_Rules"
+            android:label="@string/title_activity_activity__rules" >
+        </activity>
+        <activity
+            android:name=".ActivityWords"
+            android:label="@string/title_activity_activity_words" >
+        </activity>
+        <activity
+            android:name=".ActivityTimer"
+            android:label="@string/title_activity_activity_timer" >
+        </activity>
+        <activity
+            android:name=".ActivityTeams"
+            android:label="@string/title_activity_activity_teams" >
+        </activity>
+        <activity
+            android:name=".ActivityCountPlayers"
+            android:label="@string/title_activity_activity_count_players" >
+        </activity>
+        <activity
+            android:name=".ActivityPlay"
+            android:label="@string/title_activity_activity_play" >
+        </activity>
+        <activity
+            android:name=".ActivityControl"
+            android:label="@string/title_activity_activity_control" >
+        </activity>
+        <activity
+            android:name=".ActivityScore"
+            android:label="@string/title_activity_activity_score" >
+        </activity>
+        <activity
+            android:name=".ActivitySettings"
+            android:label="@string/title_activity_activity_settings" >
+            
+        </activity>
+    </application>
+
+</manifest>

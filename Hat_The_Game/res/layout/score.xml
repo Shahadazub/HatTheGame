@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TableRow
+	    android:id="@+id/GreattableRowScore"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.3"
+	    android:gravity="center" >
+	    
+	    <TextView
+	        android:id="@+id/TextTitleScore"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:text="СЧЕТ:"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textSize="50dip" />
+	    
+	</TableRow>    
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7" >
+
+        <TableLayout
+            android:id="@+id/ScrollScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

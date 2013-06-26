@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:keepScreenOn="true">
+
+      <Button
+          android:id="@+id/brew_start_stop"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_alignParentBottom="true"
+          android:text="qwe"
+          android:textSize="80dp" />
+
+      <ImageButton
+          android:id="@+id/imageButton1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/brew_start_stop"
+          android:layout_alignTop="@+id/brew_start_stop"
+          android:background="@android:color/transparent"
+          android:src="@drawable/reboot" />
+
+</RelativeLayout>

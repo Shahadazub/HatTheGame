@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/NewGame" android:title="@string/NewGameOptionsMenu"></item>
+    <item android:id="@+id/ToMainMenu" android:title="@string/ToTheMainMenuOptionsMenu"></item>
+</menu>

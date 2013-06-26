@@ -1,0 +1,44 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.hat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:id="@+id/GreatTable" >
+
+    
+
+        <TableRow
+            android:id="@+id/RowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+                         >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Впишите названия команд"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+             
+        </TableRow>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6" >
+
+            <TableLayout
+                android:id = "@+id/MainTableTeams"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </TableLayout>
+        </ScrollView>
+
+</TableLayout>
+
+

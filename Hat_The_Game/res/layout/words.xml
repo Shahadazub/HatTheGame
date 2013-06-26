@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HatAppBackColor"
+    >
+
+    
+    <EditText
+        android:id="@+id/EditWord1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="27sp"
+        android:layout_marginTop="34sp"
+        android:editable="false"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditWord1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33sp"
+        android:text="1."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditWord2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditWord1"
+        android:layout_below="@+id/EditWord1"
+        android:layout_marginTop="34sp"
+        android:editable="false"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditWord2"
+        android:layout_alignLeft="@+id/TextNumber1"
+        android:text="2."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditWord3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditWord2"
+        android:layout_below="@+id/EditWord2"
+        android:layout_marginTop="34sp"
+        android:editable="false"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextNumber3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditWord3"
+        android:layout_alignLeft="@+id/TextNumber2"
+        android:text="3."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditWord4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditWord3"
+        android:layout_below="@+id/EditWord3"
+        android:layout_marginTop="34sp"
+        android:editable="false"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextNumber4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditWord4"
+        android:layout_alignLeft="@+id/TextNumber3"
+        android:text="4."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditWord5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditWord4"
+        android:layout_below="@+id/EditWord4"
+        android:layout_marginTop="34sp"
+        android:editable="false"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextNumber5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditWord5"
+        android:layout_alignLeft="@+id/TextNumber4"
+        android:text="5."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ButNewWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextNumber5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23sp"
+        android:onClick="onClick"
+        android:text="Новые 5 слов" />
+
+    <Button
+        android:id="@+id/ButBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ButNewWords"
+        android:layout_alignBottom="@+id/ButNewWords"
+        android:layout_alignRight="@+id/EditWord5"
+        android:onClick="onClick"
+        android:text="Назад" />
+
+</RelativeLayout>
